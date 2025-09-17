@@ -54,5 +54,83 @@ table {
 }
 
 /*ROOTS*/
+:root {
+    --teal: #4CA7C0;
+    --purple:  #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;
+}
 
 /*GLOBAL STYLE*/
+
+html {
+    max-width: 450px;
+}
+
+h1 {
+    font-family: Kavoon;
+    font-size: 3em;
+    color: var(--white);
+    margin: 0 auto;
+    padding: 20px
+    
+    
+    
+}
+
+h2 {
+    font-family: Kavoon;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 1.5em;
+    color: var(--yellow);
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 1.5em;
+    color: var(--purple);
+}
+
+header p {
+    color: var(--white);
+}
+
+nav a {
+    color: var(--purple);
+    text-decoration: none;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    color: var(--purple);
+}
+
+main h2 {
+    color: var(--white);
+}
+
+P {
+    font-family: Inter;
+}
+
+body {
+    font-family: Inter;
+    background-color: var(--lavender);
+    max-width: 450px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer {
+    color: var(--white);
+}
