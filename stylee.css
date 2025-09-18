@@ -66,21 +66,14 @@ table {
 
 /*GLOBAL STYLE*/
 
-html {
-    max-width: 450px;
-}
-
 h1 {
     font-family: Kavoon;
     font-size: 3em;
     color: var(--white);
     margin: 0 auto;
     padding: 20px
-    
-    
-    
 }
-
+      
 h2 {
     font-family: Kavoon;
     font-size: 2em;
@@ -98,13 +91,48 @@ h4 {
     color: var(--purple);
 }
 
-header p {
+a {
+    text-decoration: none;
+}
+
+#pt1{
+    padding: 25px;
+    background-color: var(--purple);
     color: var(--white);
 }
 
-nav a {
-    color: var(--purple);
-    text-decoration: none;
+
+#menu{
+    background-color: var(--yellow);
+    padding: 25px;
+    width: 400px; 
+}
+
+#compiledservices {
+    background-color: var(--purple);
+}
+
+#whychooseus {
+    background-color: var(--pink);
+}
+
+#compiledpricing {
+    background-color: var(--purple);
+}
+/*DO THE BUTTON,EVEY OTHER PART OF THIS SECTION IS DONE THO*/
+#compiledfirststep{
+    padding: 15px;
+    background-color: var(--pink);
+    color: var(--white)
+}
+
+header h2 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    
 }
 
 nav h2 {
@@ -124,13 +152,21 @@ body {
     font-family: Inter;
     background-color: var(--lavender);
     max-width: 450px;
+    margin: 0 auto;
 }
 
 footer a {
     text-decoration: none;
     color: var(--white);
+    margin-left: 75px;
 }
 
 footer {
+    display: flex;
+    align-items: center;
     color: var(--white);
+    background-color: var(--purple);
+    padding: 40px;
 }
+
+
