@@ -307,13 +307,11 @@ a {
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-radius: 5px;
-    
+    border-radius: 15px;
 }
 
 #compiledfirststep a:hover{
-    background-color: #1E1E1E;
-    /*ADD BLACK SHADOW*/
+    box-shadow: 8px 8px 10px rgb(0, 0, 2.0)
 }
 
 header {
