@@ -106,7 +106,23 @@ a {
     background-color: var(--yellow);
     padding: 25px;
     width: 400px; 
+   
 }
+
+#menu ul {
+    padding: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+#menu li {
+    border: 5px solid var(--yellow);
+    border-bottom: 3px solid var(--yellow);
+    background-color: var(--white);
+    padding: 10px;
+}
+
 
 #compiledservices {
     background-color: var(--purple);
@@ -114,16 +130,110 @@ a {
 
 #whychooseus {
     background-color: var(--pink);
+    padding: 10px;
+}
+
+#whychooseus h2 {
+    padding: 10px;
+}
+
+#r1 {
+    background-color: var(--teal);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+#r2 {
+    background-color: var(--purple);
+    display: inline-block;
+    padding: 20px; 
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100px;
+}
+
+#r3 {
+    background-color: var(--yellow);
+    display: inline-block;
+    padding: 20px; 
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 100px;
+}
+
+#r4 {
+    background-color: var(--white);
+    display: inline-block;
+    padding: 20px; 
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100px;
 }
 
 #compiledpricing {
     background-color: var(--purple);
+    padding: 30px;
 }
-/*DO THE BUTTON,EVEY OTHER PART OF THIS SECTION IS DONE THO*/
-#compiledfirststep{
+
+#compiledpricing h3 {
+    padding: 8px;
+    font-weight: bold;
+}
+
+#compiledpricing table {
+    margin: 0 auto;
+    border-left: 3px solid var(--yellow) ;
+    border-right: 3px solid var(--yellow) ;
+    border-bottom: 3px solid var(--yellow) ;
+}
+
+#compiledpricing th {
+    background-color: var(--yellow);
     padding: 15px;
+    font-weight: bold;
+    border: 3px solid var(--yellow);
+}
+
+#compiledpricing td {
+    background-color: var(--white);
+    padding: 15px;
+    border: 3px solid var(--yellow);
+
+}
+
+#compiledfirststep{
+    padding: 20px;
     background-color: var(--pink);
-    color: var(--white)
+    color: var(--white);
+}
+
+#compiledfirststep p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+#compiledfirststep a {
+    background-color: var(--white);
+    color: #1E1E1E;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    
+}
+
+#compiledfirststep a:hover{
+    background-color: #1E1E1E;
+    /*ADD BLACK SHADOW*/
 }
 
 header h2 {
