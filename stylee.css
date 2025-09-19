@@ -106,7 +106,12 @@ a {
     background-color: var(--yellow);
     padding: 25px;
     width: 400px; 
-   
+}
+
+#menu h2 {
+    font-family: Inter;
+    /*Font for this h2 automatically set to the same one as the "path to success" title*/
+    font-weight: bold;
 }
 
 #menu ul {
@@ -126,6 +131,81 @@ a {
 
 #compiledservices {
     background-color: var(--purple);
+    padding: 15px;
+}
+
+#compiledservices img {
+    margin: 10px;
+}
+
+#compiledservices p {
+    line-height: 25px;
+}
+
+
+#compiledservices h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#compiledservices h4 {
+    margin-bottom: 10px;
+}
+
+#personaldevelopment {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#careercoaching {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#relationshipcoaching {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#supportivecommunity {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#focusedsessions {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#interactivelearning {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#flexiblelearning {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 #whychooseus {
@@ -137,7 +217,7 @@ a {
     padding: 10px;
 }
 
-#r1 {
+#r1{
     background-color: var(--teal);
     display: inline-block;
     padding: 20px;
@@ -148,7 +228,7 @@ a {
     width: 100px;
 }
 
-#r2 {
+#r2{
     background-color: var(--purple);
     display: inline-block;
     padding: 20px; 
@@ -157,7 +237,7 @@ a {
     width: 100px;
 }
 
-#r3 {
+#r3{
     background-color: var(--yellow);
     display: inline-block;
     padding: 20px; 
@@ -167,7 +247,7 @@ a {
     width: 100px;
 }
 
-#r4 {
+#r4{
     background-color: var(--white);
     display: inline-block;
     padding: 20px; 
@@ -242,7 +322,6 @@ header {
 
 nav {
     text-align: center;
-    
 }
 
 nav h2 {
